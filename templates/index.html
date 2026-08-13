@@ -4,11 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Название страницы</title>
+    <style>
+      h6 {
+        font-size: 15px;
+      }
+      .h2-text {
+        color: red;
+      }
+
+      .h6-text {
+        color: yellow;
+      }
+
+      #h1-text {
+        font-size: 50px
+      }
+
+      div.python > a {
+        color: green;
+      }
+
+      ul li {
+        color: green;
+      }
+
+      input[type="text"]:hover {
+        background-color: green;
+      }
+
+      a:hover {
+        color: red;
+      }
+
+      li::marker {
+        color: red;
+      }
+
+      ul > li:nth-child(2) {
+        color: blue;
+      }
+    </style>
   </head>
   <body>
-    <h1>H1 text</h1>
-    <h2>H2 text</h1>
+    <div class="python">
+    <h1 id="h1-text">H1 text</h1>
+    <h2 class="h2-text">H2 text</h1>
     <h3>H3 text</h1>
+    <h6 class="h2-text h6-text">H6 text</h6>
     <p>
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. <span style="color: blueviolet;">Facere atque sint fugiat</span> saepe nam nostrum ut numquam ex, omnis dignissimos, fuga officiis sit nihil amet exercitationem repudiandae non similique assumenda.
     </p>
@@ -58,5 +100,10 @@
         </tr>
       </tbody>
     </table>
+    </div>
+    <div>
+      <a href="https://playwright.dev/img/logos/Browsers.png" class="java-script">JavaScript</a>
+      <h2 class="h2-text">H2 text</h1>
+    </div>
   </body>
 </html>
