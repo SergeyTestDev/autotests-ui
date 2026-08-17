@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h3#title-text {
+        font-size: 20px;
+      }
+
+      div input {
+        background-color: green;
+      }
+
+      button#login-button {
+        width: 100px;
+        height: 100px;
+      }
+
+      * {
+        display: flex;
+      }
+
+      label {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h3 id="title-text" class="common-style title-style">Title</h3>
+      <div>
+        <label for="username-input">Username</label>
+        <input
+          type="text"
+          id="username-input"
+          class="common-style input-style"
+        />
+      </div>
+      <div>
+        <label for="password-input">Password</label>
+        <input
+          type="password"
+          id="password-input"
+          class="common-style input-style"
+        />
+      </div>
+      <button id="login-button" class="common-style button-style">Login</button>
+    </div>
+  </body>
+</html>
