@@ -1,0 +1,26 @@
+
+
+
+Вам необходимо написать XPath-локатор, который выбирает кнопку с атрибутом type="submit", расположенную внутри тега form, при этом:
+
+    XPath должен начинаться от тега form (не от корня, не от div, не через ancestor);
+    XPath должен быть универсальным — не опирайтесь на текст кнопки;
+    XPath должен использовать двойные кавычки;
+    XPath должен быть написан так, чтобы не затрагивать кнопки вне form.
+
+<div>
+  <form>
+    <button type="submit">Login</button>
+    <button type="reset">Registration</button>
+  </form>
+  <div>
+    <button type="submit">Login</button>
+    <button type="reset">Registration</button>
+  </div>
+</div>
+
+Ваша цель — выбрать только кнопку "Login" внутри form по атрибуту type, не опираясь на текст.
+
+Ответ:
+
+//form[]
