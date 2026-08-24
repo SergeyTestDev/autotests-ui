@@ -1,0 +1,9 @@
+Необходимо написать локатор для поиска первого элемент <span> внутри элемента div c id="footer"
+
+<div>
+  <div id="footer">
+    <span>Python</span>
+    <span>Pytest</span>
+    <span>Playwright</span>
+  </div>
+</div>
