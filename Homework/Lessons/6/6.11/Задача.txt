@@ -1,0 +1,6 @@
+Откройте страницу https://nikita-filonov.github.io/qa-automation-engineer-ui-course/#/auth/registration и напишите XPath локатор используя тег button атрибут data-testid для кнопки "Registration"
+
+Важно! При написании локаторов используйте двойные кавычки
+
+Решение
+//button[@id="registration-page-registration-button"]

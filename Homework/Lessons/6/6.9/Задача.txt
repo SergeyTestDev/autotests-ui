@@ -7,3 +7,5 @@
     <span>Playwright</span>
   </div>
 </div>
+
+//div[@id="footer"]//span[1]

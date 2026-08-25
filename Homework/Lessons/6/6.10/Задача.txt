@@ -1,0 +1,5 @@
+напишите XPath локатор используя тег button атрибут id для кнопки "Login"
+
+https://nikita-filonov.github.io/qa-automation-engineer-ui-course/#/auth/login
+
+Решение
